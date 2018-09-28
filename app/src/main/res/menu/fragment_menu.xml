@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_state"
+        android:icon="@drawable/ic_input_add"
+        android:title = "Add"
+        app:showAsAction="ifRoom|withText"
+        />
+    <item
+        android:id="@+id/run"
+        android:icon="@drawable/ic_action_run"
+        android:title="Run"
+        app:showAsAction="ifRoom|withText"
+        />
+
+    <item
+        android:id="@+id/stop"
+        android:title="Stop"
+        android:icon="@drawable/ic_action_stop"
+        app:showAsAction="ifRoom|withText"
+        />
+</menu>
